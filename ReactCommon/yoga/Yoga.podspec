@@ -6,8 +6,8 @@
 package = JSON.parse(File.read(File.expand_path('../../package.json', __dir__)))
 version = package['version']
 
-source = { :git => ENV['INSTALL_YOGA_FROM_LOCATION'] || 'https://github.com/facebook/react-native.git' }
-if version == '1000.0.0'
+source = { :git => ENV['INSTALL_YOGA_FROM_LOCATION'] || 'https://github.com/Kast0rTr0y/react-native.git' }
+if version == '0.62.3-w3h'
   # This is an unpublished version, use the latest commit hash of the react-native repo, which we’re presumably in.
   source[:commit] = `git rev-parse HEAD`.strip
 else
