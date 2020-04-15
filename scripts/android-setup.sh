@@ -10,7 +10,7 @@
 source "scripts/.tests.env"
 
 function getAndroidPackages {
-  export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$ANDROID_HOME/tools.bin:$PATH"
+  export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$PATH"
 
   DEPS="$ANDROID_HOME/installed-dependencies"
 
